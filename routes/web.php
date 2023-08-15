@@ -19,3 +19,4 @@ Route::get('create', [PagesController::class, 'create']);
 Route::get('createNew', [PagesController::class, 'createNew']);
 Route::get('read', [PagesController::class, 'read']);
 Route::get('edit/{id}', [PagesController::class, 'edit']);
+Route::get('update/{id}', [PagesController::class, 'update']);
